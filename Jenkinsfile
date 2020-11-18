@@ -1,6 +1,6 @@
 node {
    stage('Preparation') { 
-      git 'https://github.com/RichardKnowles/fleetman-webapp'
+      git 'https://github.com/pcjoshi9/fleetman-webapp-PJ'
    }
    stage('Build') {
       sh "mvn -DskipTests clean package"
